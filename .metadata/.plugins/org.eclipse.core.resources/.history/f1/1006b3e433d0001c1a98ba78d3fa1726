@@ -1,0 +1,19 @@
+package Day01;
+
+public class _10_for {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1. for 반복문
+		int sum = 0;
+		
+		//1 ~ 100까지 합을 구함
+		for (int i = 0; i <= 100; i++) {
+			sum += i;
+		}
+		System.out.println(sum);
+		
+	}
+
+}

@@ -160,6 +160,14 @@ public class _07_operator {
 		System.out.println("----------------------------");
 		
 		
+		//8. 삼항 비교연산자
+		//?앞의 값의 상태에 따라서 값이 결정됨
+		//?앞의 연산이 true일 경우 :의 왼쪽 값
+		//?앞의 연산이 false일 경우 :의 오른쪽 값
+		int result3 = (10 < 30) ? 100 : -100;
+		System.out.println(result3);
+		System.out.println("----------------------------");
+		
 	}
 	
 
