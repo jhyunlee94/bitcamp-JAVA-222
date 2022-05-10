@@ -1,0 +1,57 @@
+package Day01;
+
+public class _07_operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1. 산술연산자
+		int num1 = 10;
+		int num2 = 3;
+		
+		//num1과 num2 덧셈 연산 결과
+		int result = num1 + num2; 
+		System.out.printf("%d\n", num1);
+		System.out.println("num1 + num2 = " + result);
+		System.out.println("----------------------------");
+		
+		//num1과 num2 뺄셈 연산 결과
+		result = num1 - num2; 
+		System.out.println("num1 - num2 = " + result);
+		System.out.println("----------------------------");
+		
+		//num1과 num2 곱셈 연산 결과
+		result = num1 * num2; 
+		System.out.println("num1 * num2 = " + result);
+		System.out.println("----------------------------");
+		
+		//num1과 num2 나눗셈 연산 결과
+		result = num1 / num2; 
+		System.out.println("num1 / num2 = " + result);
+		System.out.println("----------------------------");
+		
+		//num1과 num2 나머지 연산 결과
+		//num1을 num2로 나눈 나머지 표출
+		result = num1 % num2; 
+		System.out.println("num1 % num2 = " + result);
+		System.out.println("----------------------------");
+		
+		
+		//2. 부호연산자
+		int num3 = 10;
+		//정수나 실수의 부호를 변경할 때 사용
+		int num4 = -num3;
+		System.out.println(num4);
+		System.out.println("----------------------------");
+		
+		//3. 문자열 결합 연산자
+		String str1 = "hello ";
+		String str2 = "java";
+		System.out.println(str1 + str2);
+		//+연산자를 이용하여 두 개의 문자열을 하나의 문자열로 합침
+		
+		
+		
+	}
+
+}
