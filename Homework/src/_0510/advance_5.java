@@ -48,7 +48,8 @@ public class advance_5 {
 		} else if(c>b && b>a) {
 			max =c; x=a;y=b;
 		}
-		
+		// String printStr = (a +b>c)&& (a+b>c)&& (b+c>a) ? "삼각형 가능" : "불가능"
+		//System.out.println(printStr);
 		if(max < (x+y)) //가장 긴 변 < 다른 두 변의 합
 			System.out.println("삼각형됨");
 		else 

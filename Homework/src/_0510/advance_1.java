@@ -18,6 +18,10 @@ public class advance_1 {
 			System.out.println("소문자");
 		}
 		
+//		int num = System.in.read();
+//		String str = num >=65 && num <=90 ? "대문자" :num>=97 && num <=122 ? "소문자" : "다시입력하세여";
+//		
+//		System.out.println(str);
 		
 	}
 

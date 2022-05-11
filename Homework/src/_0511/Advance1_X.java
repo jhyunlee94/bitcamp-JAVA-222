@@ -1,6 +1,6 @@
-package Day01;
+package _0511;
 
-public class _07_operator {
+public class Advance1_X {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

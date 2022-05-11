@@ -18,6 +18,10 @@ public class advance_2 {
 		}
 		
 		
+//		int num = System.in.read();
+//		char ch = num >=65 && num <= 90 ? (char)(num + 32) : num >= 97 && num<= 122 ? (char)(num-32):'-';
+//		System.out.println(ch);
+		
 	}
 
 }
