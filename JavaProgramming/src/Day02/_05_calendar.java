@@ -32,7 +32,7 @@ public class _05_calendar {
 		//현재 초 반환
 		int second = cal.get(Calendar.SECOND);
 		
-		
+		//요일 숫자 변환 switch-case
 		String korDayOfWeek = "";
 		switch(day) {
 		case 1:
