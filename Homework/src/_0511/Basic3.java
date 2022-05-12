@@ -8,9 +8,9 @@ public class Basic3 {
 		int[] num = new int[10];
 		
 		int a = (int)(Math.random()*10);
-		
+		//1~ 10 ÀÌ¶ף (Math.random()*10) +1
 		for(int i = 0; i<num.length; i++) {
-			int a1 = (int)(Math.random()*10);
+			int a1 = (int)(Math.random()*10)+1;
 			num[i] = a1;
 			if(num[i]%2==1) {
 				System.out.print(num[i]+"\t");

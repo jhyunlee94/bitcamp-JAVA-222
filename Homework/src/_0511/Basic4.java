@@ -21,7 +21,8 @@ public class Basic4 {
 		System.out.println();
 		
 		for(int i = 0; i<num.length; i++) {
-			if(num[i]%2==0 && num[i]%3==0) {
+			//이거나라는 말은 ||임
+			if(num[i]%2==0 || num[i]%3==0) {
 				System.out.print(num[i]+"\t");
 			}
 		}
