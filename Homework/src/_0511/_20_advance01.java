@@ -22,6 +22,10 @@ public class _20_advance01 {
 		System.out.print("y2의 좌표를 입력해주세요>> ");
 		int y2 = sc.nextInt();
 		int x, y;
+		//프로그램이 진행되면서 값이 입력되면 변수초기화 불필요
+		//값이 입력되지 않은 상황이 발생 시에는 초기화 필요
+		
+		
 		if (x1 > 0 && x2 > 0) {				//x1, x2좌표가 둘 다 양수일때
 			if (x1 > x2)					//x1이 x2보다 크면 x1-x2
 				x = x1 - x2;

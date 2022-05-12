@@ -34,7 +34,7 @@ public class Middle4 {
 //		
 		double money = 10000;
 
-		for(int i = 1; i <=10; i++) {
+		for(int i = 1; i <=10; i++) { //1 ~ 10³âµ¿¾È 
 			money = money + (money * 0.1);
 		}
 		
