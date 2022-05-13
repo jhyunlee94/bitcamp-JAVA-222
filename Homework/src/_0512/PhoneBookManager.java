@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 public class PhoneBookManager {
 
-	static PhoneInfo phoneInfo = new PhoneInfo();
+	
+	//전역변수 : 클래스가 실행되는 동안 계속 메모리에 남아있음
+	public static PhoneInfo phoneInfo = new PhoneInfo();
 
+	//지역변수 : 메소드나 제어문, 조건문 안에 선언된 변수
+	//		   메소드나 제어문, 조건문이 종료되면 메모리에서 삭제됨
+	// for(int i = 0; i < 10; i++) -----> i는 지역변수라 for문종료 시 삭제됨
+	
 	public static void showMenu() {
 		System.out.println("--선택하세요--");
 		System.out.println("1. 데이터 입력");
@@ -57,6 +63,8 @@ public class PhoneBookManager {
 		String birthDay="";
 		
 		PhoneInfo phoneInfo = new PhoneInfo();
+		
+		// nextLine 이랑 nextInt 혼용해서 사용하면 안됨
 		
 		while(true) {
 			showMenu();
