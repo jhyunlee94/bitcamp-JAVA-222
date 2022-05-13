@@ -2,6 +2,9 @@ package Day04;
 
 public class CalMinus extends Calculator{
 
+	int chk; //가 1로 들어왔을땐 부모 가 실행되고 
+			 // 1이 아닐땐 Minus로 실행 
+	
 	//부모 클래스에 존재하는 메소드를 재정의
 	//부모 크래스에 존재하는 메소드와 형태가 완전 동일
 	//이름도 같고 매개변수 타입과, 형태가 동일해야한다.
@@ -12,15 +15,17 @@ public class CalMinus extends Calculator{
 	// 			 컴파일 속도 향상
 	public int calculate(int a, int b) {
 		// TODO Auto-generated method stub
-		return a - b;
+		if(chk == 1) {
+			return super.calculate(a, b);
+		} else {
+			return a - b;
+		} 
 	}
 	
 	@Override
 	public int calculate(int a, int b, int c) {
 		return a - b - c;
 	}
-
-
 
 	
 }
