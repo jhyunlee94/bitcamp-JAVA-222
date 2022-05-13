@@ -8,6 +8,4 @@ public class Tv {
 		System.out.println("제조사는 : " + company);
 	}
 	
-	
-
 }

@@ -4,8 +4,8 @@ public class SmartPhone extends Phone{
 
 	int size;
 	
-	public SmartPhone() {
-		size = 6;
+	public SmartPhone(int price) {
+		super(price);
 	}
 	
 	public void showSize() {

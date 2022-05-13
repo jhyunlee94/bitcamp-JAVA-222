@@ -5,10 +5,10 @@ public class _07_forceTypeChange {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		SmartPhone sp1 = new SmartPhone();
+		SmartPhone sp1 = new SmartPhone(1);
 		
 		// 1. 부모객체 생성 시, 부모객체로 만듬
-		Phone p1 = new Phone();
+		Phone p1 = new Phone(); // 현재 안되는 이유는 Phone가 추상클래스로 만들어져서 객체(생성)초기화 불가능
 		
 		//2. 부모객체 생성 시 자식객체 삽입
 		Phone p2 = sp1;
