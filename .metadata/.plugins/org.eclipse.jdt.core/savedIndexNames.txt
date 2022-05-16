@@ -2,4 +2,3 @@ INDEX VERSION 1.131+C:\lecture\java_lecture\.metadata\.plugins\org.eclipse.jdt.c
 988354311.index
 2113377331.index
 1865797976.index
-1650135229.index
