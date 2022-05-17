@@ -1,5 +1,7 @@
 package _0516;
 
+import java.util.Scanner;
+
 public class Calc {
 
 	public static void main(String[] args) {
@@ -12,6 +14,23 @@ public class Calc {
 		calcArr[2] = new Mul();
 		calcArr[3] = new Div();
 		
+		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("정수를 입력하세요.");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.println("연산자 선택(+ - * /");
+//		String op = sc.nextLine();
+//		System.out.println("정수를 입력하세요.");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		switch(op) {
+//		case "+" :
+//			calc[o].setValue(a,b)
+//			System.out.println(a +  " + " + b + " = " + calc[0].calculate());
+//			break;
+//		}
+//		
 		calcArr[0].setValue(10, 5);
 //		calcArr[0].calculate(); //-------------------> 덧셈실행
 		System.out.println(calcArr[0].calculate());
