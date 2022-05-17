@@ -1,6 +1,6 @@
 package Day06;
 
-public class _20_charAt_length {
+public class _02_charAt_length {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

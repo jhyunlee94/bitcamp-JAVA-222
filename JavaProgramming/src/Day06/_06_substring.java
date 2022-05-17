@@ -13,8 +13,8 @@ public class _06_substring {
 		//인덱스 7부터 끝까지 문자열 자름
 		String second = str1.substring(7);
 
-		System.out.println(first);
-		System.out.println(second);
+		System.out.println("주민번호 앞자리는 : " + first);
+		System.out.println("주민번호 뒷자리는 : " + second);
 	}
 
 }
