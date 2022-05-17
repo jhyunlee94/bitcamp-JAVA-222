@@ -1,16 +1,12 @@
 package _0517.basic;
 
-public class _1 {
+public class _2 {
 
-	static int sumArray(int[] num) {
-
-		int sum1 = 0;
-		
-		for(int i = 0; i < num.length; i++) {
-			sum1 += num[i];
-		}
-		
-		return sum1;
+	static void printEven(int[] num) {
+		for(int i = 0; i < num.length; i++)
+			if(i%2==0)
+		System.out.printf(num[i] + " ");
+		System.out.println();
 	}
 	
 	public static void main(String[] args) {
@@ -25,9 +21,10 @@ public class _1 {
 		for(int j = 0; j < num2.length; j++) {	
 			num2[j] = j + 100;
 		}
-		
-		System.out.println(sumArray(num1));
-		System.out.println(sumArray(num2));
+
+		System.out.println();
+		printEven(num1);
+		printEven(num2);
 	}
 
 }
